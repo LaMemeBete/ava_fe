@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #2b3541;
+    justify-content: space-between;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.col {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 20px;
+    width: 150px;
+}
+.col-1 .title {
+    font-weight: 700;
+    text-align: left;
+}
+.col-1 .sub-title {
+    font-weight: 100;
+    text-align: left;
+    font-size: 14px;
+}
+
+.col-2 .title {
+    font-weight: 400;
+    text-align: right;
+}
+.col-2 .sub-title {
+    font-weight: 100;
+    text-align: right;
+    font-size: 14px;
+}
+
+.col-3 .title {
+    font-weight: 400;
+    text-align: right;
+}
+.col-3 .sub-title {
+    font-weight: 400;
+    text-align: right;
+    font-size: 15px;
+}
+.red {
+    color: #d8744b;
+}
+.green {
+    color: #63984e;
+}
+.rounded {
+    border-top: 1px solid #212a34;
+    border-radius: 1px;
+    margin: 0px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.container-sparkline {
+    background-color: #2b3541;
+    margin: 0px 15px;
+}
